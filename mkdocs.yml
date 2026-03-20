@@ -1,0 +1,94 @@
+site_name: Ask More, Build Better, Burn Out Less
+site_description: A practical guide to using GitHub Copilot without burning out
+site_author: codess-aus
+site_url: https://codess-aus.github.io/AskBuildBurn/
+
+repo_name: codess-aus/AskBuildBurn
+repo_url: https://github.com/codess-aus/AskBuildBurn
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+plugins:
+  - search:
+      lang: en
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - "1. Reality Check": chapters/01-reality-check.md
+  - "2. The Paradox": chapters/02-the-paradox.md
+  - "3. Rule Zero": chapters/03-rule-zero.md
+  - "4. Ask Mode": chapters/04-ask-mode.md
+  - "5. Turn a Failing Test": chapters/05-failing-test.md
+  - "6. The Million Questions Workflow": chapters/06-million-questions.md
+  - "7. A Mentor Loop": chapters/07-mentor-loop.md
+  - "8. Agent Mode": chapters/08-agent-mode.md
+  - "9. Refactor Without Losing Architecture": chapters/09-refactor.md
+  - "10. Review the Diff": chapters/10-review-diff.md
+  - "11. Guardrails": chapters/11-guardrails.md
+  - "12. Security": chapters/12-security.md
+  - "13. The Playbook": chapters/13-playbook.md
+  - "14. Burn Out Less": chapters/14-burn-out-less.md
+  - "15. The Call to Action": chapters/15-call-to-action.md
+  - Resources: resources.md
+  - About: about.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/codess-aus
