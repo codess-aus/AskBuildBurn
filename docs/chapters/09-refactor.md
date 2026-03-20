@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-09.svg" alt="Chapter hero: Blueprint architecture diagrams with clean structural lines" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 9</span>
-    <h1 class="hero__title">Refactor Without Losing Architecture</h1>
-    <p class="hero__subtitle">Change with confidence — not with hope</p>
-  </div>
+<div class="hero">
+  <img src="../images/9.png" alt="Chapter 9 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 9</span>

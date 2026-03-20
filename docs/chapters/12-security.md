@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-12.svg" alt="Chapter hero: A padlock on a circuit board, security meets technology" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 12</span>
-    <h1 class="hero__title">Security: The Bug You Ship When You're Exhausted</h1>
-    <p class="hero__subtitle">Burnout and security are the same problem</p>
-  </div>
+<div class="hero">
+  <img src="../images/12.png" alt="Chapter 12 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 12</span>

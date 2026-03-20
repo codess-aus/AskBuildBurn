@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-14.svg" alt="Chapter hero: A developer resting peacefully, sustainable work environment" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 14</span>
-    <h1 class="hero__title">Burn Out Less</h1>
-    <p class="hero__subtitle">Make asking a first-class practice — and protect your capacity</p>
-  </div>
+<div class="hero">
+  <img src="../images/14.png" alt="Chapter 14 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 14</span>

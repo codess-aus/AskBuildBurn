@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-02.svg" alt="Chapter hero: Two paths diverging in a forest, symbolic of choice" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 2</span>
-    <h1 class="hero__title">The Paradox</h1>
-    <p class="hero__subtitle">When moving faster feels like falling further behind</p>
-  </div>
+<div class="hero">
+  <img src="../images/2.png" alt="Chapter 2 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 2</span>

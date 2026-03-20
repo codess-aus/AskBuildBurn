@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-01.svg" alt="Chapter hero: A developer looking at code on a large monitor in a modern office" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 1</span>
-    <h1 class="hero__title">Reality Check</h1>
-    <p class="hero__subtitle">The state of AI-assisted development — honestly</p>
-  </div>
+<div class="hero">
+  <img src="../images/1.png" alt="Chapter 1 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 1</span>

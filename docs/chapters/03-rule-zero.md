@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-03.svg" alt="Chapter hero: A developer's hands on a keyboard, clear ownership" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 3</span>
-    <h1 class="hero__title">Rule Zero</h1>
-    <p class="hero__subtitle">You own the code — all of it</p>
-  </div>
+<div class="hero">
+  <img src="../images/3.png" alt="Chapter 3 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 3</span>

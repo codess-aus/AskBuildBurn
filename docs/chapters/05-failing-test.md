@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-05.svg" alt="Chapter hero: A red failing test in a terminal, with a developer thinking" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 5</span>
-    <h1 class="hero__title">Turn a Failing Test Into a Learning Plan</h1>
-    <p class="hero__subtitle">What red means when you know how to read it</p>
-  </div>
+<div class="hero">
+  <img src="../images/5.png" alt="Chapter 5 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 5</span>

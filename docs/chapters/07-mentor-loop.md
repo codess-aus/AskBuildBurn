@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-07.svg" alt="Chapter hero: Two people at a whiteboard, one teaching, one learning" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 7</span>
-    <h1 class="hero__title">A Mentor Loop</h1>
-    <p class="hero__subtitle">Teaching and being taught — at the same time</p>
-  </div>
+<div class="hero">
+  <img src="../images/7.png" alt="Chapter 7 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 7</span>

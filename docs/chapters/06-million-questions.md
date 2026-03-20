@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-06.svg" alt="Chapter hero: A chat interface with many questions and answers flowing" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 6</span>
-    <h1 class="hero__title">The Million Questions Workflow</h1>
-    <p class="hero__subtitle">Iterate without shame. Ask without apology.</p>
-  </div>
+<div class="hero">
+  <img src="../images/6.png" alt="Chapter 6 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 6</span>

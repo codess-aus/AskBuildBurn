@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-10.svg" alt="Chapter hero: A code diff displayed on a screen, lines highlighted in red and green" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 10</span>
-    <h1 class="hero__title">Review the Diff</h1>
-    <p class="hero__subtitle">Owning what Copilot writes means reviewing it like a human</p>
-  </div>
+<div class="hero">
+  <img src="../images/10.png" alt="Chapter 10 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 10</span>

@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-11.svg" alt="Chapter hero: A fence running alongside a safe path, symbolic of protective boundaries" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 11</span>
-    <h1 class="hero__title">Guardrails That Prevent AI-Shaped Chaos</h1>
-    <p class="hero__subtitle">Automation without structure is just entropy at scale</p>
-  </div>
+<div class="hero">
+  <img src="../images/11.png" alt="Chapter 11 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 11</span>

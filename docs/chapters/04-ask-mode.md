@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-04.svg" alt="Chapter hero: A magnifying glass over a codebase, thoughtful exploration" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 4</span>
-    <h1 class="hero__title">Ask Mode</h1>
-    <p class="hero__subtitle">Prompting as a first-class engineering skill</p>
-  </div>
+<div class="hero">
+  <img src="../images/4.png" alt="Chapter 4 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 4</span>

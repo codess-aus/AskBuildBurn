@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-15.svg" alt="Chapter hero: A sunrise over a city skyline, new beginnings" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 15</span>
-    <h1 class="hero__title">The Call to Action</h1>
-    <p class="hero__subtitle">What comes next is yours to choose</p>
-  </div>
+<div class="hero">
+  <img src="../images/15.png" alt="Chapter 15 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 15</span>

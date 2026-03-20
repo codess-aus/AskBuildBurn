@@ -1,9 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="images/hero-title.svg" alt="Gradient hero image: Ask More, Build Better, Burn Out Less" loading="eager" />
-  <div class="hero__overlay">
-    <h1 class="hero__title">Ask More, Build Better,<br>Burn Out Less</h1>
-    <p class="hero__subtitle">A practical guide to working with GitHub Copilot — without losing yourself in the process</p>
-  </div>
+<div class="hero">
+  <img src="images/Home.png" alt="Hero image: Ask More, Build Better, Burn Out Less" loading="eager" />
 </div>
 
 # Welcome

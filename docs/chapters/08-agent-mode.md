@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-08.svg" alt="Chapter hero: An autonomous robot arm building software components" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 8</span>
-    <h1 class="hero__title">Agent Mode</h1>
-    <p class="hero__subtitle">Handing off the wheel — and knowing when to take it back</p>
-  </div>
+<div class="hero">
+  <img src="../images/8.png" alt="Chapter 8 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 8</span>

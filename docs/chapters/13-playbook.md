@@ -1,10 +1,5 @@
-<div class="hero hero--gradient">
-  <img src="../images/hero-13.svg" alt="Chapter hero: An open notebook with a structured plan and checkboxes" loading="lazy" />
-  <div class="hero__overlay">
-    <span class="chapter-badge">Chapter 13</span>
-    <h1 class="hero__title">The Playbook</h1>
-    <p class="hero__subtitle">Patterns that work — collected and ready to use</p>
-  </div>
+<div class="hero">
+  <img src="../images/13.png" alt="Chapter 13 hero image" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 13</span>
