@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/2.png" alt="Chapter 2 hero image" loading="lazy" />
+  <img src="../../images/2.png" alt="The Paradox — the fear of AI replacement versus the reality of augmentation, and the two modes that change everything: Ask Mode for learners, Agent Mode for seniors" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 2</span>

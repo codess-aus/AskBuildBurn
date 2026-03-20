@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/5.png" alt="Chapter 5 hero image" loading="lazy" />
+  <img src="../../images/5.png" alt="Turn a Failing Test into a Learning Plan — using Ask Mode questions to diagnose a failing email validation test and arrive at a fix you actually understand" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 5</span>

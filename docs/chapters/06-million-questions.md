@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/6.png" alt="Chapter 6 hero image" loading="lazy" />
+  <img src="../../images/6.png" alt="The Million Questions Workflow — an example conversation flow using Ask Mode as a patient mentor through five stages: initial question, follow-ups, ELI5, deep dive and regression test" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 6</span>

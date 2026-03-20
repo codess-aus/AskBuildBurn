@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/3.png" alt="Chapter 3 hero image" loading="lazy" />
+  <img src="../../images/3.png" alt="Rule Zero: You Own the Code — ownership, understanding and architecture; Ask Mode + Agent Mode + YOU = Better Software" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 3</span>

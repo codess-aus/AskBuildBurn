@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/14.png" alt="Chapter 14 hero image" loading="lazy" />
+  <img src="../../images/14.png" alt="Burn Out Less: Make Asking a First-class Practice — normalise questions, celebrate learning moments, protect focus time, use AI for repetitive tasks, distribute review load and recognise burnout signals" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 14</span>

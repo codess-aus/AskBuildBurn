@@ -4,16 +4,16 @@
 
 /* ---------- Gradient brand palette ---------- */
 :root {
-  --gradient-start: #6c2bd9;
-  --gradient-mid:   #b06ab3;
-  --gradient-end:   #ff6b9d;
+  --gradient-start: #10b981;
+  --gradient-mid:   #3b82f6;
+  --gradient-end:   #7c3aed;
 
-  --md-primary-fg-color:        #6c2bd9;
-  --md-primary-fg-color--light: #b06ab3;
-  --md-primary-fg-color--dark:  #5a1fcb;
-  --md-accent-fg-color:         #ff6b9d;
+  --md-primary-fg-color:        #7c3aed;
+  --md-primary-fg-color--light: #3b82f6;
+  --md-primary-fg-color--dark:  #5b21b6;
+  --md-accent-fg-color:         #10b981;
 
-  --hero-overlay-light: rgba(108, 43, 217, 0.55);
+  --hero-overlay-light: rgba(124, 58, 237, 0.55);
   --hero-overlay-dark:  rgba(20, 10, 40, 0.65);
 
   --hero-height: 420px;
@@ -21,10 +21,10 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #b06ab3;
-  --md-primary-fg-color--light: #d48cd6;
-  --md-primary-fg-color--dark:  #8a4aad;
-  --md-accent-fg-color:         #ff9ec5;
+  --md-primary-fg-color:        #a78bfa;
+  --md-primary-fg-color--light: #60a5fa;
+  --md-primary-fg-color--dark:  #7c3aed;
+  --md-accent-fg-color:         #34d399;
 }
 
 /* ---------- Site header gradient ---------- */
@@ -177,7 +177,7 @@ hr {
 }
 
 .resource-card:hover {
-  box-shadow: 0 6px 24px rgba(108, 43, 217, 0.18);
+  box-shadow: 0 6px 24px rgba(124, 58, 237, 0.18);
   transform: translateY(-2px);
 }
 

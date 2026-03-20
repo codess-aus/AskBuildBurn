@@ -1,10 +1,10 @@
 <div class="hero">
-  <img src="../images/1.png" alt="Chapter 1 hero image" loading="lazy" />
+  <img src="../../images/1.png" alt="The Reality Check — the relentless pace, burnout, overwhelmed juniors, brutal layoffs and scarce hope: where software development is right now" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 1</span>
 
-# Reality Check
+# The Reality Check
 
 Let's be honest about where we are.
 

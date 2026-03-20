@@ -1,10 +1,10 @@
 <div class="hero">
-  <img src="../images/7.png" alt="Chapter 7 hero image" loading="lazy" />
+  <img src="../../images/7.png" alt="A Mentor Loop: Ask → Understand → Experiment → Validate → Document — deconstructing Ask Mode into a repeatable learning pattern that scales human mentorship" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 7</span>
 
-# A Mentor Loop
+# What Just Happened: A Mentor Loop
 
 The best engineers I've worked with have this quality in common: they can explain their reasoning, not just their code.
 

@@ -1,10 +1,10 @@
 <div class="hero">
-  <img src="../images/10.png" alt="Chapter 10 hero image" loading="lazy" />
+  <img src="../../images/10.png" alt="Review the Diff Like a Tech Lead — three critical checks before approving AI-generated changes: contract compatibility, test coverage and error semantics" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 10</span>
 
-# Review the Diff
+# Review the Diff Like a Tech Lead
 
 The diff is where ownership happens.
 

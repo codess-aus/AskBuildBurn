@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/9.png" alt="Chapter 9 hero image" loading="lazy" />
+  <img src="../../images/9.png" alt="Refactor Without Losing Architecture — analyze, plan, execute, validate: an Agent Mode workflow that touches 8 files, makes zero API changes and raises test coverage from 87% to 94%" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 9</span>

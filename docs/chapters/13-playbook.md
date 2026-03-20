@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/13.png" alt="Chapter 13 hero image" loading="lazy" />
+  <img src="../../images/13.png" alt="The Playbook — six actionable strategies: model vulnerability, shift code reviews from what to how, add prompt reviews, manually feed context, verify AI output and reintroduce manual practice" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 13</span>

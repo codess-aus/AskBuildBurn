@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/4.png" alt="Chapter 4 hero image" loading="lazy" />
+  <img src="../../images/4.png" alt="Ask Mode for learners — conversational AI support for concept explanations, code snippets, best practices and building confidence not dependence" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 4</span>

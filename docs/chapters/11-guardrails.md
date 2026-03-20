@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/11.png" alt="Chapter 11 hero image" loading="lazy" />
+  <img src="../../images/11.png" alt="Guardrails That Prevent AI-shaped Chaos — always review diffs, maintain test coverage, require human approval for architecture decisions, document AI-assisted choices and apply extra security scrutiny to sensitive code" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 11</span>

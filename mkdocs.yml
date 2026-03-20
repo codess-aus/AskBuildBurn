@@ -70,21 +70,22 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - "1. Reality Check": chapters/01-reality-check.md
-  - "2. The Paradox": chapters/02-the-paradox.md
-  - "3. Rule Zero": chapters/03-rule-zero.md
-  - "4. Ask Mode": chapters/04-ask-mode.md
-  - "5. Turn a Failing Test": chapters/05-failing-test.md
-  - "6. The Million Questions Workflow": chapters/06-million-questions.md
-  - "7. A Mentor Loop": chapters/07-mentor-loop.md
-  - "8. Agent Mode": chapters/08-agent-mode.md
-  - "9. Refactor Without Losing Architecture": chapters/09-refactor.md
-  - "10. Review the Diff": chapters/10-review-diff.md
-  - "11. Guardrails": chapters/11-guardrails.md
-  - "12. Security": chapters/12-security.md
-  - "13. The Playbook": chapters/13-playbook.md
-  - "14. Burn Out Less": chapters/14-burn-out-less.md
-  - "15. The Call to Action": chapters/15-call-to-action.md
+  - Chapters:
+    - "1. Reality Check": chapters/01-reality-check.md
+    - "2. The Paradox": chapters/02-the-paradox.md
+    - "3. Rule Zero": chapters/03-rule-zero.md
+    - "4. Ask Mode": chapters/04-ask-mode.md
+    - "5. Turn a Failing Test": chapters/05-failing-test.md
+    - "6. The Million Questions Workflow": chapters/06-million-questions.md
+    - "7. A Mentor Loop": chapters/07-mentor-loop.md
+    - "8. Agent Mode": chapters/08-agent-mode.md
+    - "9. Refactor Without Losing Architecture": chapters/09-refactor.md
+    - "10. Review the Diff": chapters/10-review-diff.md
+    - "11. Guardrails": chapters/11-guardrails.md
+    - "12. Security": chapters/12-security.md
+    - "13. The Playbook": chapters/13-playbook.md
+    - "14. Burn Out Less": chapters/14-burn-out-less.md
+    - "15. The Call to Action": chapters/15-call-to-action.md
   - Resources: resources.md
   - About: about.md
 

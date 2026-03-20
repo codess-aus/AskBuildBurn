@@ -1,10 +1,10 @@
 <div class="hero">
-  <img src="../images/8.png" alt="Chapter 8 hero image" loading="lazy" />
+  <img src="../../images/8.png" alt="Agent Mode: Senior Leverage, Not Senior Replacement — autonomous multi-file task execution for refactoring, test generation, code cleanup and bug fixes, with you in the driver's seat" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 8</span>
 
-# Agent Mode
+# Agent Mode: Senior Leverage, Not Senior Replacement
 
 Everything we've talked about so far has been collaborative — you and Copilot, working together on individual functions, tests, and reviews. You're always present. You're always in the loop.
 

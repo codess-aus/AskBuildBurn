@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/15.png" alt="Chapter 15 hero image" loading="lazy" />
+  <img src="../../images/15.png" alt="The Call to Action — use AI for growth not replacement, support each other, stop burning out: the future is Human + AI, not Human vs AI" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 15</span>

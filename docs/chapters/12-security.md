@@ -1,5 +1,5 @@
 <div class="hero">
-  <img src="../images/12.png" alt="Chapter 12 hero image" loading="lazy" />
+  <img src="../../images/12.png" alt="Security: The Bug You Ship When You're Exhausted — how late-night deadline pressure and cognitive depletion lead to missed vulnerabilities, and how Ask Mode surfaces security risks proactively" loading="lazy" />
 </div>
 
 <span class="chapter-badge">Chapter 12</span>
