@@ -1,0 +1,298 @@
+/* ============================================================
+   Ask More, Build Better, Burn Out Less — Custom Styles
+   ============================================================ */
+
+/* ---------- Gradient brand palette ---------- */
+:root {
+  --gradient-start: #6c2bd9;
+  --gradient-mid:   #b06ab3;
+  --gradient-end:   #ff6b9d;
+
+  --md-primary-fg-color:        #6c2bd9;
+  --md-primary-fg-color--light: #b06ab3;
+  --md-primary-fg-color--dark:  #5a1fcb;
+  --md-accent-fg-color:         #ff6b9d;
+
+  --hero-overlay-light: rgba(108, 43, 217, 0.55);
+  --hero-overlay-dark:  rgba(20, 10, 40, 0.65);
+
+  --hero-height: 420px;
+  --hero-height-sm: 260px;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #b06ab3;
+  --md-primary-fg-color--light: #d48cd6;
+  --md-primary-fg-color--dark:  #8a4aad;
+  --md-accent-fg-color:         #ff9ec5;
+}
+
+/* ---------- Site header gradient ---------- */
+.md-header {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
+}
+
+/* ---------- Navigation tabs gradient ---------- */
+.md-tabs {
+  background: linear-gradient(135deg, var(--gradient-mid), var(--gradient-end));
+}
+
+/* ---------- Hero section ---------- */
+.hero {
+  position: relative;
+  width: 100%;
+  height: var(--hero-height);
+  overflow: hidden;
+  border-radius: 0 0 1rem 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+/* Fallback gradient when no image is provided */
+.hero.hero--gradient {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: var(--hero-overlay-light);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+[data-md-color-scheme="slate"] .hero__overlay {
+  background: var(--hero-overlay-dark);
+}
+
+.hero__title {
+  font-size: clamp(1.8rem, 5vw, 3.5rem);
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  margin: 0 0 0.5rem;
+  line-height: 1.15;
+}
+
+.hero__subtitle {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  margin: 0;
+  font-weight: 400;
+}
+
+/* ---------- Chapter number badge ---------- */
+.chapter-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.75rem;
+  border-radius: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ---------- Gradient headings ---------- */
+h1 {
+  color: var(--gradient-start); /* fallback for browsers that don't support background-clip: text */
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Ensure hero titles (inside .hero__overlay) are always white regardless of gradient heading rule */
+.hero__title {
+  color: #ffffff !important;
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: #ffffff !important;
+  background-clip: initial !important;
+}
+
+/* ---------- Gradient horizontal rule ---------- */
+hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gradient-start), var(--gradient-mid), var(--gradient-end));
+  margin: 2rem 0;
+  border-radius: 2px;
+}
+
+/* ---------- Call-out / admonition accent ---------- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-left-color: var(--gradient-start);
+}
+
+/* ---------- Buttons ---------- */
+.md-typeset .md-button {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  border: none;
+  color: #fff;
+  border-radius: 2rem;
+  padding: 0.55rem 1.4rem;
+  font-weight: 600;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .md-button:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* ---------- Resource cards ---------- */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.resource-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.75rem;
+  padding: 1.25rem 1.5rem;
+  background: var(--md-default-bg-color);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.resource-card:hover {
+  box-shadow: 0 6px 24px rgba(108, 43, 217, 0.18);
+  transform: translateY(-2px);
+}
+
+.resource-card__icon {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.resource-card__title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--md-primary-fg-color);
+}
+
+.resource-card__desc {
+  font-size: 0.875rem;
+  color: var(--md-default-fg-color--light);
+  flex: 1;
+}
+
+.resource-card__link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+  text-decoration: none;
+}
+
+.resource-card__link:hover {
+  text-decoration: underline;
+}
+
+/* ---------- About page profile ---------- */
+.about-profile {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.about-profile__avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, var(--gradient-start), var(--gradient-end)) border-box;
+  flex-shrink: 0;
+}
+
+.about-profile__avatar--placeholder {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+/* ---------- Footer gradient ---------- */
+.md-footer {
+  background: linear-gradient(135deg, var(--gradient-start), var(--gradient-mid));
+}
+
+.md-footer-meta {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* ---------- Responsive ---------- */
+@media screen and (max-width: 768px) {
+  .hero {
+    height: var(--hero-height-sm);
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-profile {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Focus / accessibility ---------- */
+:focus-visible {
+  outline: 3px solid var(--gradient-end);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ---------- Smooth page transitions ---------- */
+.md-content {
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Code block accents ---------- */
+.md-typeset pre > code {
+  border-left: 3px solid var(--gradient-start);
+}
+
+/* ---------- Table of contents highlight ---------- */
+.md-nav__link--active {
+  color: var(--md-accent-fg-color) !important;
+  font-weight: 600;
+}
